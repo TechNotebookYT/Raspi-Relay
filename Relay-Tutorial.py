@@ -30,7 +30,8 @@ try:
         # time.sleep(1)
         
 finally:
-    GPIO.cleanup()
+    # GPIO.cleanup()
+    GPIO.output(21, GPIO.LOW)
     
     
 
