@@ -3,8 +3,9 @@ from gpiozero import MotionSensor
 import RPi.GPIO as GPIO
 import time
 
-pir = MotionSensor(17) # PIR Motion Sensor
 GPIO.setmode(GPIO.BCM) # GPIO Numbers instead of board numbers
+pir = MotionSensor(17) # PIR Motion Sensor
+
 
 # Relay 1
 GPIO.setup(21, GPIO.OUT)
