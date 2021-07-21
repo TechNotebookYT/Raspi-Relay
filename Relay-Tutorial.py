@@ -61,3 +61,6 @@ finally:
         # GPIO.output(RELAIS_1_GPIO, GPIO.LOW)
         # print("Motion Stopped")
         # time.sleep(2)
+
+
+#This was added on a new branch called july2021
